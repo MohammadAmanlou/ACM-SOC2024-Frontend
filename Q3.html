@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Survey Form</title>
+    <style>
+        form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        label, input, select, textarea {
+            display: block;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://theuselessweb.site/ducksarethebest.com/">
+        <h2>فرم نظرسنجی</h2>
+        <label for="name">نام:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">ایمیل:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="dob">تاریخ تولد:</label>
+        <input type="text" id="dob" name="dob" placeholder="مثال: 1381/10/29">
+
+        <label for="contact">شماره تماس:</label>
+        <input type="text" id="contact" name="contact" placeholder="0903-840-0534">
+
+        <label>از میان غذاهای زیر کدام را ترجیح می‌دهید؟</label>
+        <input type="radio" id="pizza" name="preferred_food" value="pizza">
+        <label for="pizza">پیتزا</label>
+        <input type="radio" id="kebab" name="preferred_food" value="kebab">
+        <label for="kebab">کباب</label>
+        <input type="radio" id="salad" name="preferred_food" value="salad">
+        <label for="salad">قرمه سبزی</label>
+        <input type="radio" id="sushi" name="preferred_food" value="sushi">
+        <label for="sushi">سوشی</label>
+        <input type="radio" id="soup" name="preferred_food" value="soup">
+        <label for="soup">سوپ</label>
+
+        <label>کدام یک از غذاهای رستوران ما را میل کرده‌اید؟</label>
+        <input type="checkbox" id="pizza_tried" name="tried_foods" value="pizza">
+        <label for="pizza_tried">پیتزا</label>
+        <input type="checkbox" id="burger" name="tried_foods" value="burger">
+        <label for="burger">برگر</label>
+        <input type="checkbox" id="fried_chicken" name="tried_foods" value="fried_chicken">
+        <label for="fried_chicken">مرغ سوخاری</label>
+        <input type="checkbox" id="soup_tried" name="tried_foods" value="soup">
+        <label for="soup_tried">سوپ</label>
+        <input type="checkbox" id="salad_tried" name="tried_foods" value="salad">
+        <label for="salad_tried">سالاد</label>
+
+        <label for="favorite_meal">در کدام یک از غذاخوری‌های زیر غذا خورده‌اید؟</label>
+        <select id="favorite_meal" name="favorite_meal">
+            <option value="mcdonalds"> فردوس</option>
+            <option value="kfc">ونک</option>
+            <option value="amir_kabir">امیرآباد</option>
+            <option value="tehran_pars">تهرانپارس</option>
+        </select>
+
+        <label for="new food"> دوست دارید جه غذایی به منو رستوران اضافه شود؟</label>
+        <input id="feedback" name="new food">
+
+        <label for="feedback">پیشنهادات و انتقادات:</label>
+        <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+        <button type="submit">ارسال</button>
+    </form>
+
+
+</body></html>
