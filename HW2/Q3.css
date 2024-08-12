@@ -64,11 +64,6 @@ body {
     padding-top: 80px; 
 }
 
-.hero-intro {
-    font-size: 24px;
-    margin: 0;
-}
-
 .hero-content h1 {
     font-size: 48px;
     margin: 0;
@@ -79,9 +74,17 @@ body {
     color: #e50914;
 }
 
-.hero-content p {
-    font-size: 24px;
+.hero-intro {
+    font-size: 14px;
     margin: 10px 0;
+    text-align: left;
+}
+
+.hero-job {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: left ;
+    display: block
 }
 
 .hero-btn {
@@ -91,6 +94,8 @@ body {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+    display: flex;
+    position: relative;
 }
 
 .about-section {
@@ -188,31 +193,37 @@ body {
     border-radius: 5px;
 }
 
-.search-section {
-    background-color: #1c1c1c;
-    padding: 40px 20px;
-    text-align: center;
-}
-
 .search-input {
     padding: 10px;
-    border-radius: 5px;
-    border: none;
-    max-width: 400px;
-    width: 80%;
+    border-radius: 10px;
+    border-color: #e50914;
+    width: 100%;
     margin-right: 10px;
     font-size: 16px;
+    display: inline;
 }
 
 .search-btn {
     padding: 10px 20px;
     background-color: #e50914;
     color: #fff;
-    border: none;
+    border-color: #e50914;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    display : inline;
+    position: absolute;
+    outline: 0;
+    right: 4px;
+    top: 4px;
+    background-color: #C00;
 }
+
+.search-container {
+    background-color: transparent;
+    position: relative;
+    padding: 3px 50px 3px 10px;
+  }
 
 footer {
     background-color: #000;
