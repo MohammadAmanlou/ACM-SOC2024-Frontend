@@ -105,7 +105,7 @@ body {
 }
 
 .about-section h2 {
-    font-size: 36px;
+    font-size: 46px;
 }
 
 .about-content {
@@ -120,15 +120,17 @@ body {
     border-radius: 10px;
 }
 
-.about-text {
+div.about-text {
     margin-left: 20px;
     max-width: 600px;
+    text-justify:auto;
+    text-align: justify;
 }
 
 .about-text p:first-child {
     font-size: 24px;
     margin-bottom: 10px;
-    font-weight: bold;
+    text-align: left;
 }
 
 .services-section {
@@ -216,7 +218,16 @@ body {
     outline: 0;
     right: 4px;
     top: 4px;
-    background-color: #C00;
+}
+
+.talk-btn {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border-color: #e50914;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .search-container {
