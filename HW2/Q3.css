@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #1c1c1c;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; 
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-sizing: border-box; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1; 
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.subscribe-btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    white-space: nowrap; 
+    margin-left: 20px;
+}
+
+.hero-section {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 80px; 
+}
+
+.hero-intro {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #fff;
+}
+
+.red-text {
+    color: #e50914;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hero-btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.about-section {
+    background-color: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.about-content img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about-text {
+    margin-left: 20px;
+    max-width: 600px;
+}
+
+.about-text p:first-child {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.services-section {
+    background-color: #1c1c1c;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 36px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.service-box h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.service-box p {
+    font-size: 16px;
+}
+
+.service-box .btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cta-section {
+    background-color: #333;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cta-section p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.search-section {
+    background-color: #1c1c1c;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    max-width: 400px;
+    width: 80%;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p:first-child {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+footer p {
+font-size: 16px;
+margin: 5px 0;
+}
+
+.social-icons {
+margin-top: 20px;
+}
+
+.social-icons a {
+margin: 0 10px;
+display: inline-block;
+}
+
+.social-icons img {
+width: 24px;
+height: 24px;
+}
