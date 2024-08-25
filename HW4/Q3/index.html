@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>افزودن دانش‌آموزان و نمرات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>افزودن دانش‌آموزان و نمرات</h1>
+        <div class="form-group">
+            <label for="student-name">نام دانش‌آموز:</label>
+            <input type="text" id="student-name" required>
+        </div>
+        <div class="form-group">
+            <label for="math-score">نمره ریاضی:</label>
+            <input type="number" id="math-score" min="0" max="20" required>
+        </div>
+        <div class="form-group">
+            <label for="physics-score">نمره فیزیک:</label>
+            <input type="number" id="physics-score" min="0" max="20" required>
+        </div>
+        <div class="form-group">
+            <label for="chemistry-score">نمره شیمی:</label>
+            <input type="number" id="chemistry-score" min="0" max="20" required>
+        </div>
+        <button id="add-btn">افزودن</button>
+        <button id="finish-btn">نهایی‌سازی</button>
+        <button id="reset-btn">بازنشانی</button>
+
+        <ul id="student-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
