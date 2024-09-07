@@ -1,0 +1,100 @@
+/* src/pages/Customer.css */
+
+.customer-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .customer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  h1 {
+    color: #ff3b3b;
+    margin-left: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info span {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .reservations-button {
+    background-color: #ff3b3b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reservations-button:hover {
+    background-color: #e13232;
+  }
+  
+  .customer-details {
+    background-color: #ffe6e6;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .email {
+    color: #ff3b3b;
+    font-weight: bold;
+  }
+  
+  .address-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .address-info span {
+    margin-right: 20px;
+  }
+  
+  .logout-button {
+    background-color: #ff3b3b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #e13232;
+  }
+  
+  .work-progress {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .customer-footer {
+    background-color: #ff3b3b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+  }
+  

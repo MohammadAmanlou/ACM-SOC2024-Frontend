@@ -1,0 +1,377 @@
+/* Container اصلی */
+.restaurant-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff6347;
+    color: white;
+  }
+  
+  .header .logo img {
+    height: 50px;
+  }
+  
+  .header .welcome-message h1 {
+    font-size: 24px;
+  }
+  
+  .header .reservation-button button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header .reservation-button button:hover {
+    background-color: #e55347;
+  }
+  
+  /* اطلاعات رستوران */
+  .restaurant-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .restaurant-info img {
+    width: 500px;
+    border-radius: 10px;
+  }
+  
+  .restaurant-details {
+    max-width: 500px;
+  }
+  
+  .restaurant-details h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-details p {
+    color: #666;
+  }
+  
+  .restaurant-details .open-status {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .restaurant-details .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .restaurant-details .rating span {
+    margin-left: 10px;
+  }
+  
+  .restaurant-details .rating-stars {
+    color: #ff6347;
+  }
+  
+  /* فرم رزرو */
+  .reservation-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .reservation-form h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .reservation-form input,
+  .reservation-form select,
+  .reservation-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reservation-form button {
+    background-color: #ff6347;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .reservation-form button:hover {
+    background-color: #e55347;
+  }
+  
+  /* بخش نظرات */
+  .reviews-section {
+    margin-top: 50px;
+  }
+  
+  .reviews-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .review-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .review-card h3 {
+    font-size: 18px;
+    color: #ff6347;
+    margin-bottom: 10px;
+  }
+  
+  .review-card p {
+    color: #666;
+  }
+  
+  .review-card .review-date {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  /* بخش امتیاز دهی */
+  .add-review {
+    margin-top: 30px;
+  }
+  
+  .add-review form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-review form input,
+  .add-review form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-review form button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-review form button:hover {
+    background-color: #e55347;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Container for the entire restaurant page */
+.restaurant-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header with restaurant image and details */
+  .restaurant-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .restaurant-details {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .restaurant-details h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-details p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Reservation section styles */
+  .reservation-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .reservation-section h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-section form {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .reservation-section label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .reservation-section select,
+  .reservation-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .available-times {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .available-times button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .available-times button.selected {
+    background-color: #e55347;
+  }
+  
+  .reserve-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reserve-button:hover {
+    background-color: #e55347;
+  }
+  
+  /* Reviews section styles */
+  .reviews-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .reviews-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .review-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .review-card p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .review-date {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Add review section styles */
+  .add-review {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .add-review h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-review form {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .add-review label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .add-review input,
+  .add-review textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-review textarea {
+    height: 100px;
+  }
+  
+  .add-review button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-review button:hover {
+    background-color: #e55347;
+  }
+  

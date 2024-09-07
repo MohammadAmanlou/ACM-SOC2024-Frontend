@@ -1,0 +1,17 @@
+/* src/App.css */
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restaurant-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card img {
+  width: 100%;
+}
