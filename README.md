@@ -68,7 +68,7 @@ A project focused on making API calls, handling JSON data, and dynamically updat
 
 I successfully completed the Front-End Development course, earning a certificate of completion. The certificate is included below:
 
-![Certificate](link-to-certificate-image)
+![Certificate]([link-to-certificate-image](https://github.com/MohammadAmanlou/ACM-SOC2024-Frontend/blob/main/FrontACM.png))
 
 ## Installation & Usage
 
