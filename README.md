@@ -10,12 +10,12 @@ This repository contains the projects and assignments completed during the **Fro
 
 - [Course Overview](#course-overview)
 - [Projects](#projects)
-  - [Project 1: HTML & CSS Basics](#project-1-html--css-basics)
-  - [Project 2: Responsive Web Design with Bootstrap](#project-2-responsive-web-design-with-bootstrap)
-  - [Project 3: JavaScript Fundamentals](#project-3-javascript-fundamentals)
-  - [Project 4: React Introduction](#project-4-react-introduction)
-  - [Project 5: Networking and Server Communication](#project-5-networking-and-server-communication)
-  - [Project 6: Full-Stack Concepts (Front-End & Back-End)](#project-6-full-stack-concepts-front-end--back-end)
+  - [Project 1: HTML Basics](#project-1-html--css-basics)
+  - [Project 2: CSS Basics](#project-1-html--css-basics)
+  - [Project 3: Responsive Web Design with Bootstrap](#project-2-responsive-web-design-with-bootstrap)
+  - [Project 4: JavaScript Fundamentals](#project-3-javascript-fundamentals)
+  - [Project 5: React Introduction](#project-4-react-introduction)
+  - [Project 6: Networking and Server Communication](#project-5-networking-and-server-communication)
 - [Certificate](#certificate)
 - [Installation & Usage](#installation--usage)
 - [Contributions](#contributions)
@@ -37,32 +37,32 @@ The **Front-End Development** course at the University of Tehran ACM Student Cha
 ### Project 1: HTML
 A simple webpage designed to practice HTML structure and CSS styling.
 
-[View Project](link-to-project-1)
+[View Project]([link-to-project-1](https://github.com/MohammadAmanlou/ACM-SOC2024-Frontend/tree/main/HW1))
 
 ### Project 2: CSS
 A simple webpage designed to practice HTML structure and CSS styling.
 
-[View Project](link-to-project-1)
+[View Project]([link-to-project-2](https://github.com/MohammadAmanlou/ACM-SOC2024-Frontend/tree/main/HW2))
 
 ### Project 3: Responsive Web Design with Bootstrap
 A responsive website created using Bootstrap to ensure optimal viewing on various devices.
 
-[View Project](link-to-project-2)
+[View Project]([link-to-project-3](https://github.com/MohammadAmanlou/ACM-SOC2024-Frontend/tree/main/HW3/bootstrap))
 
 ### Project 4: JavaScript Fundamentals
 This project involved creating interactive features on a webpage using JavaScript, such as form validation and dynamic content updates.
 
-[View Project](link-to-project-3)
+[View Project]([link-to-project-4](https://github.com/MohammadAmanlou/ACM-SOC2024-Frontend/tree/main/HW4))
 
 ### Project 5: React Introduction
 A React-based application that demonstrates the use of components, state management, and props.
 
-[View Project](link-to-project-4)
+[View Project]([link-to-project-5](https://github.com/MohammadAmanlou/ACM-SOC2024-Frontend/tree/main/HW5))
 
 ### Project 6: Networking and Server Communication
 A project focused on making API calls, handling JSON data, and dynamically updating the UI based on server responses.
 
-[View Project](link-to-project-5)
+[View Project]([link-to-project-6](https://github.com/MohammadAmanlou/ACM-SOC2024-Frontend/tree/main/HW6))
 
 ## Certificate
 
